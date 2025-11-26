@@ -10,4 +10,6 @@ def factorial(n):
 	return result
 
 sum_ab = a + b
-print(factorial(sum_ab))
+first_factorial = factorial(sum_ab)
+second_factorial = factorial(first_factorial)
+print(second_factorial)
